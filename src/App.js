@@ -1,24 +1,16 @@
 import './App.css';
-import Logo from './componentes/Logo'
-import perfil from './imagens/perfil.png'
-import carrinho from './imagens/carrinho.png'
-import sino from './imagens/sino.png'
+import Navbar from './componentes/Navbar/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Sidebar from './componentes/Sidebar/Sidebar';
 
-const icones= [ carrinho, sino, perfil ]
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <Logo></Logo>
+      <Navbar/>
+      <Sidebar/>
       
-      <ul className="icones">
-        { icones.map( (icone) => (
-          <li className="icone"><img src={ icone } alt="icone"></img></li>
-        )) }
-      </ul>
-      </header>
-     
     </div>
   );
 }
