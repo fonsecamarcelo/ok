@@ -1,7 +1,7 @@
 import "./Navbar.css"
 import Logo from "../Logo"
 
-const Navbar = () => {
+const Navbar = (props) => {
     return(
         <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -14,13 +14,13 @@ const Navbar = () => {
     <ul class="navbar-nav">
       
       <li class="nav-item">
-        <a class="nav-link" href="#">Meu Carrinho</a>
+        <a class="nav-link" href="#/">Meu Carrinho</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"></a>
+        <a class="nav-link" href="#/notificacao">Notificação</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Notificação</a>
+        <a class="nav-link disabled" href="#/usuario">Usuario</a>
       </li>
     </ul>
   </div>

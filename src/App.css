@@ -4,5 +4,8 @@
     background-color: #ebebff;
 }
 
-
+body {
+    margin: 0;
+    padding: 0;
+}
 

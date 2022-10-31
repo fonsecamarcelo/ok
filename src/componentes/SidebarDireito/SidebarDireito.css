@@ -1,0 +1,38 @@
+.SidebarDireito{
+    height: 200px;
+    width: 220px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 100px;
+}
+
+.SidebarListDireito{
+    padding: 8px;
+    display: block;
+}
+
+.SidebarDireitoConteudo {
+    padding: 5px 0px 5px 0px;
+    font-size: 10;
+    color: #5b127d;
+    list-style-type: none;
+}
+
+.estoque {
+    padding: 5px 0px 5px 0px;
+    font-size: 10;
+}
+
+.estoquep {
+    color: #5b127d;
+}
+
+.categorias{
+    padding: 5px 0px 5px 0px;
+    font-size: 10;
+}
+
+.categoriasp{
+    color: #5b127d;
+}

@@ -1,5 +1,47 @@
-.sidebar {
-    height: 93.4%;
+.Sidebar {
+    height: 93.2%;
     width: 250px;
     background-color: white;
+}
+
+.SidebarList {
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+
+
+.SidebarList .row {
+    width: 105%;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 15px;
+    align-items: center;
+}
+
+.SidebarList .row:hover{
+    cursor: pointer;
+    background-color: #ebebff;
+}
+
+.SidebarList #active {
+    background-color: #ebebff;
+    color: green;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+
+.icone{
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.titulo{
+    flex: 70%;
 }
