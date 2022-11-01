@@ -1,18 +1,18 @@
 import Navbar from '../../componentes/Navbar/Navbar'
 import Sidebar from '../../componentes/Sidebar/Sidebar'
-import SidebarDireito from '../../componentes/SidebarDireito/SidebarDireito'
 
 
-function Home() {
+
+function Carrinho() {
     return (
-      <div className="App">
+      <div className="Carrinho">
         <Navbar/>
         <Sidebar/>
-        <SidebarDireito/>
+
     
         
       </div>
     );
   }
   
-  export default Home;
+  export default Carrinho;

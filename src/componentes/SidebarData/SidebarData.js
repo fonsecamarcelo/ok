@@ -30,7 +30,7 @@ export const SidebarData = [
     {
         title: "Produtos",
         icon: <AllInboxIcon />,
-        link: "/Produtos",
+        link: "/produtos",
     },
 
     {
@@ -70,13 +70,6 @@ export const SidebarData = [
         title: "Contato Distribuidora",
         icon: <PhoneIcon />,
         link: "/contatodistribuidora",
-    },
-
-
-    {
-        title: "FARMÁCIA DA ILHA",
-        icon: <StorefrontIcon />,
-        link: "/farmacia",
     },
 
 ];

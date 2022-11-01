@@ -1,6 +1,8 @@
 import React from 'react'
 import './Sidebar.css'
 import  {SidebarData}  from '../SidebarData/SidebarData'
+import Produtos from '../../Produtos/Produtos'
+import { Link } from 'react-router-dom'
 
 function Sidebar() {
   return (
@@ -9,15 +11,13 @@ function Sidebar() {
             { SidebarData.map((val, key)=> {
             return(
 
-                <li key={ key }
+                <Link key={ key }
                     className="row"
                     id={ window.location.pathname == val.link ? "active" : ""}
-                    onClick={() => {
-                        window.location.pathname = val.link;
-                    }}
+                    href={val.link}
                     >
                     <div className='icone'>{ val.icon }</div><div className='titulo'>{val.title}</div>
-                </li>
+                </Link>
                 )
         
             })}
