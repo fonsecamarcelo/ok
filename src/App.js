@@ -3,7 +3,8 @@ import Navbar from './componentes/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Sidebar from './componentes/Sidebar/Sidebar';
 import SidebarDireito from './componentes/SidebarDireito/SidebarDireito';
-import Carrinho from './componentes/Carrinho/Carrinho';
+import Produto from './componentes/Produtos/Produto';
+
 
 
 
@@ -14,7 +15,7 @@ function App() {
       <Navbar/>
       <Sidebar/>
       <SidebarDireito/>
-     <Carrinho/>
+      <Produto/>
       
     </div>
   );
