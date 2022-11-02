@@ -11,13 +11,13 @@ function Sidebar() {
             { SidebarData.map((val, key)=> {
             return(
 
-                <Link key={ key }
+                <a key={ key }
                     className="row"
                     id={ window.location.pathname == val.link ? "active" : ""}
                     href={val.link}
                     >
                     <div className='icone'>{ val.icon }</div><div className='titulo'>{val.title}</div>
-                </Link>
+                </a>
                 )
         
             })}
