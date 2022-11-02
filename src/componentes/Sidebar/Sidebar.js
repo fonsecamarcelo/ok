@@ -16,6 +16,7 @@ function Sidebar() {
                     id={ window.location.pathname == val.link ? "active" : ""}
                     href={val.link}
                     >
+                    
                     <div className='icone'>{ val.icon }</div><div className='titulo'>{val.title}</div>
                 </a>
                 )

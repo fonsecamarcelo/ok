@@ -5,46 +5,24 @@ import Pagamento from './Paginas/Pagamento/Pagamento'
 import Produtos from './Produtos/Produtos'
 import { CarrinhoProvider } from './componentes/Common/Context/CarrinhoContext'
 import { Fragment } from 'react'
+import Navbar from './componentes/Navbar/Navbar'
+import Sidebar from './componentes/Sidebar/Sidebar'
+import SidebarDireito from './componentes/SidebarDireito/SidebarDireito'
 
 function Router() {
     return (
         <BrowserRouter>
             <Fragment>
+                <Navbar />
+                <Sidebar />
+                <SidebarDireito />
                 <Routes>
+                    
                     <Route exact path="/home" element={ <Home />}/>
                     <Route exact path="/carrinho" element={ <Carrinho />}/>
                     <Route exact path="/pagamento" element={ <Pagamento />}/>
                     
-                    
-                     {/*<Route exact path="/whoisme" element={<Private Item={WhoIsMe}/>}/>
-                    <Route exact path="/find-flight" element={<Private Item={FindFlignts}/>}/>
-                    <Route exact path="/configuration" element={<Private Item={Configuration}/>}/>
-                    <Route path={"/"} element={<Private Item={LoginPrivateRoute}/>}/>*/}
                 </Routes>
-                
-                
-                
-                
-                
-                
-                
-                {/*<Route exact path='/'>
-                <Home />
-                </Route>
-               
-                <CarrinhoProvider>
-                <Route path='/carrinho'>
-                    <Carrinho />
-                </Route>
-                </CarrinhoProvider>
-
-                <Route path='/pagamento'>
-                    <Pagamento />
-                </Route>
-
-                <Route path='/produtos'>
-                    <Produtos />
-                </Route> */}
             </Fragment>
         </BrowserRouter>
     )
