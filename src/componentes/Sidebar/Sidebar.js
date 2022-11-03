@@ -1,8 +1,7 @@
 import React from 'react'
 import './Sidebar.css'
 import  {SidebarData}  from '../SidebarData/SidebarData'
-import Produtos from '../../Produtos/Data'
-import { Link } from 'react-router-dom'
+
 
 function Sidebar() {
   return (

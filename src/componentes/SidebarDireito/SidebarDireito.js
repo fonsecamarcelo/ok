@@ -2,12 +2,7 @@ import React, { useState } from 'react'
 import './SidebarDireito.css'
 
 function SidebarDireito() {
-    
-
-   
-
-    
-  return (
+    return (
     <div className='SidebarDireito'>
         <ul className='SidebarListDireito'> 
             <li className='SidebarDireitoConteudo'> 
