@@ -5,7 +5,7 @@ import './ProdutosData.css'
 export default function Product({item}) {
     return (
     <div className='cards'>
-      <ul className='image-box'> 
+      <div className='image-box'> 
         
         <h3>{item.name}</h3>
         <div className="cardsrow">Preço: ${item.finalPrice}</div>
@@ -15,7 +15,7 @@ export default function Product({item}) {
         <div>
             <button className='button'>Adicionar ao Carrinho</button>
         </div>
-        </ul>
+        </div>
     </div>
   )
 }

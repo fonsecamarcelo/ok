@@ -1,12 +1,7 @@
 .filtrodebusca {
-    height: 200px;
-    width: 220px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding-top: 100px;
-    margin-right: 1300px;
-    display: inline-block;
+   display: flex;
+   align-items: center;
+   
 }
 
 .botoespesquisa {

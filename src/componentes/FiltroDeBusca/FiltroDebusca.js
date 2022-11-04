@@ -5,10 +5,14 @@ import SearchIcon from '@mui/icons-material/Search';
 function FiltroDebusca() {
   return (
     <div className='filtrodebusca'>
-       <ul className='botoespesquisa'>
-        <li className='botoespesquisaconteudo'>
+       <div className='botoespesquisa'>
+        <div className='botoespesquisaconteudo'>
           <SearchIcon className='icone'/>
        <input type='text' placeholder='Pesquisar'/>
+       </div>
+       </div>
+
+        <div> 
        <select id="selecao" required="required">
           <option value="">Nome (A - Z)</option>
           <option value="1">A</option>
@@ -18,7 +22,10 @@ function FiltroDebusca() {
           <option value="5">E</option>
           <option value="6">F</option>
           </select>
+          </div>
 
+
+          <div> 
           <select id="exibicao" required="required">
           <option value="">Exibição</option>
           <option value="1">1</option>
@@ -31,8 +38,8 @@ function FiltroDebusca() {
           <option value="5">8</option>
           <option value="6">9</option>
           </select>
-          </li>
-       </ul>
+          
+        </div>
         
         
     </div>
@@ -40,3 +47,4 @@ function FiltroDebusca() {
 }
 
 export default FiltroDebusca
+

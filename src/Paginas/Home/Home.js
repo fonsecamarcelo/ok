@@ -8,7 +8,7 @@ function Home(props) {
         <>
         <FiltroDebusca />
         {Data.products.map ((item) =>(
-          <Product item={item}/>
+          <Product key={item.id} item={item}/>
         ))}
         </>
 

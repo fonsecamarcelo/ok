@@ -4,24 +4,24 @@ img.small {
 }
 
 .cards {
-    height: 200px;
-    width: 220px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding-top: 300px;
-    margin-right: 1300px;
-    display: grid;
+   margin-top: 50px;
+   margin-left: 30px;
+   background-color: #3cba92;
+   padding: 20px;
+   border-radius: 5px;
 
 }
 
 .cardsrow {
-    width: 105%;
     height: 50px;
     margin-left: 10px;
     margin-right: 20px;
     margin-bottom: 10px;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 15px;
     align-items: center;
 }
+
+.teste{
+    display: flex;
+  }

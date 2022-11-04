@@ -11,19 +11,22 @@ function AppRouter() {
     const { products } = Data
     return (
         <BrowserRouter>
-            <>
-                <Navbar />
-                <Sidebar />
-                <SidebarDireito />
-                <Routes>
-                
-                    <Route exact path="/" element={ <Home />}/>
-                    <Route exact path="/carrinho" element={ <Carrinho />}/>
-                    <Route exact path="/pagamento" element={ <Pagamento />}/>
-                    
-                </Routes>
-            </>
-        </BrowserRouter>
+        <>
+            <Navbar/>
+            <div className={"teste"}>
+                <Sidebar/>
+                <SidebarDireito/>
+                <div>
+                    <Routes>
+                        <Route exact path="/" element={<Home/>}/>
+                        <Route exact path="/carrinho" element={<Carrinho/>}/>
+                        <Route exact path="/pagamento" element={<Pagamento/>}/>
+                    </Routes>
+                </div>
+
+            </div>
+        </>
+    </BrowserRouter>
     )
 }
 
