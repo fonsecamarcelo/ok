@@ -1,0 +1,42 @@
+.MenuCarrinho {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.botaoVoltar {
+    display: flex;
+   align-items: center;
+   padding-left: 35px;
+  
+}
+
+.Dashbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-top: 30px;
+}
+
+.pagamento {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 1100px;
+    background-color: #3cba92;
+    color: #ffffff;
+    
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.limpar {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    color: #FF0000;
+}

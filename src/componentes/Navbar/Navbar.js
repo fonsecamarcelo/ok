@@ -1,5 +1,7 @@
 import "./Navbar.css"
 import Logo from "../Logo"
+import Carrinhoimg from "../CarrinhoLogo/CarrinhoLogo"
+
 
 const Navbar = (props) => {
     return(
@@ -14,7 +16,7 @@ const Navbar = (props) => {
                 <ul class="navbar-nav">
       
                   <li class="nav-item">
-                    <a class="nav-link" href="#/">Meu Carrinho</a>
+                    <a class="nav-link" href="Carrinho">Meu Carrinho</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#/notificacao">Notificação</a>

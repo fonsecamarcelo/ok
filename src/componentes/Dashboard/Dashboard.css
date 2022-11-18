@@ -1,0 +1,11 @@
+.dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 1100px;
+    margin-top: 20px;
+}
+
+.resumo {
+    color: #3cba92;
+}

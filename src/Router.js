@@ -4,7 +4,6 @@ import Carrinho from './Paginas/Carrinho/Carrinho'
 import Pagamento from './Paginas/Pagamento/Pagamento'
 import Navbar from './componentes/Navbar/Navbar'
 import Sidebar from './componentes/Sidebar/Sidebar'
-import SidebarDireito from './componentes/SidebarDireito/SidebarDireito'
 import Data from './Produtos/Data';
 
 function AppRouter() {
@@ -15,7 +14,7 @@ function AppRouter() {
             <Navbar/>
             <div className={"teste"}>
                 <Sidebar/>
-                <SidebarDireito/>
+               
                 <div>
                     <Routes>
                         <Route exact path="/" element={<Home/>}/>

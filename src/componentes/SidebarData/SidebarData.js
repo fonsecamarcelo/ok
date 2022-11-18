@@ -30,7 +30,7 @@ export const SidebarData = [
     {
         title: "Produtos",
         icon: <AllInboxIcon />,
-        link: "/produtos",
+        link: "/",
     },
 
     {

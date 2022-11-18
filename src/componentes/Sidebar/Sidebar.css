@@ -22,9 +22,16 @@
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .SidebarList .row:hover{
     cursor: pointer;
     background-color: #ebebff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
 }
 
 .SidebarList #active {

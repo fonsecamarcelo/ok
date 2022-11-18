@@ -5,10 +5,33 @@
 }
 
 .botoespesquisa {
-    padding: 8px;
+    padding: 30px;
     display: block;
-
 }
 
+.iconeFiltro {
+    color: #FFFFFF;
+    background-color: #5b127d;
+    border-radius: 15px;
+}
+
+.pesquisarFiltro {
+    width: 500px;
+    height: 35px;
+    background-color: #D8BFD8;
+    border-radius: 20px;
+    border: 0;
+}
+
+
+.inputs {
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.inputNome {
+    border: none;
+}
 
 

@@ -6,7 +6,7 @@ img.small {
 .cards {
    margin-top: 50px;
    margin-left: 30px;
-   background-color: #3cba92;
+   background-color: white;
    padding: 20px;
    border-radius: 5px;
 
@@ -24,4 +24,10 @@ img.small {
 
 .teste{
     display: flex;
+  }
+
+  .cardsrow {
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
   }

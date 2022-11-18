@@ -8,8 +8,11 @@ export default function Product({item}) {
       <div className='image-box'> 
         
         <h3>{item.name}</h3>
-        <div className="cardsrow">Preço: ${item.finalPrice}</div>
-        <div>Disponível: {item.quantityAvailable}</div>
+        <div className="cardsrow">Base: ${item.finalPrice}
+        <p>Estoque: {item.quantityAvailable}</p>
+        
+      </div>
+      
         
         
         <div>

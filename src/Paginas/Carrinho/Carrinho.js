@@ -1,17 +1,13 @@
-import Navbar from '../../componentes/Navbar/Navbar'
-import Sidebar from '../../componentes/Sidebar/Sidebar'
-
-
+import MenuCarrinho from '../../componentes/MenuCarrinho/MenuCarrinho';
+import Dashboard from '../../componentes/Dashboard/Dashboard';
 
 function Carrinho() {
     return (
-      <div className="Carrinho">
-        <Navbar/>
-        <Sidebar/>
-
-    
-        
-      </div>
+      <>
+        <MenuCarrinho />
+        <Dashboard />
+  
+      </>
     );
   }
   

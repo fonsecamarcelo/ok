@@ -7,26 +7,28 @@ function FiltroDebusca() {
     <div className='filtrodebusca'>
        <div className='botoespesquisa'>
         <div className='botoespesquisaconteudo'>
-          <SearchIcon className='icone'/>
-       <input type='text' placeholder='Pesquisar'/>
-       </div>
-       </div>
+          <SearchIcon fontSize= 'large' className='iconeFiltro' />
+        <input className='pesquisarFiltro' type='text' placeholder='Pesquisar'/>
+      </div>
+    </div>
+
+    <div className='inputs'> 
+      <p>Ordenar por:</p>
+        <div className='filtroNome'> 
+          <select className='inputNome' required="required">
+            <option value="">Nome (A - Z)</option>
+            <option value="1">A</option>
+            <option value="2">B</option>
+            <option value="3">C</option>
+            <option value="4">D</option>
+            <option value="5">E</option>
+            <option value="6">F</option>
+          </select>
+      </div>
+
 
         <div> 
-       <select id="selecao" required="required">
-          <option value="">Nome (A - Z)</option>
-          <option value="1">A</option>
-          <option value="2">B</option>
-          <option value="3">C</option>
-          <option value="4">D</option>
-          <option value="5">E</option>
-          <option value="6">F</option>
-          </select>
-          </div>
-
-
-          <div> 
-          <select id="exibicao" required="required">
+          <select  required="required">
           <option value="">Exibição</option>
           <option value="1">1</option>
           <option value="2">2</option>
@@ -37,11 +39,11 @@ function FiltroDebusca() {
           <option value="4">7</option>
           <option value="5">8</option>
           <option value="6">9</option>
-          </select>
+        </select>
           
         </div>
         
-        
+        </div>
     </div>
   )
 }
