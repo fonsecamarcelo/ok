@@ -1,0 +1,20 @@
+.inputExibicao {
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-left: 25px;
+}
+
+.pExibicao {
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.selectExibicao {
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 40px;
+    width: 50px;
+    border: none;
+    border-radius: 15px;
+}

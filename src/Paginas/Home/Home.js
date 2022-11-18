@@ -6,16 +6,16 @@ function Home(props) {
   
   return (
     
-        <>
+      <>
         <SidebarDireito/>
         <FiltroDebusca />
         {Data.products.map ((item) =>(
           <Product key={item.id} item={item}/>
-        ))}
+      ))}
 
 
         
-        </>
+      </>
 
    
     );
