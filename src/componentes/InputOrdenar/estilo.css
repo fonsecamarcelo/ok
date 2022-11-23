@@ -3,6 +3,7 @@
    align-items: center;
    justify-content: space-around;
    margin-left: 25px;
+   
 }
 
 .pOrdenar {
@@ -13,7 +14,8 @@
 .selectOrdenar {
     margin-right: 10px;
     margin-left: 10px;
-    height: 35px;
     border: none;
     border-radius: 15px;
+    padding: 10px;
 }
+

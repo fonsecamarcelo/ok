@@ -1,26 +1,37 @@
 .filtrodebusca {
    display: flex;
    align-items: center;
+   padding: 30px;
    
 }
 
 .botoespesquisa {
-    padding: 30px;
-    display: block;
+    display: flex;
+    align-items: center;
 }
+
 
 .iconeFiltro {
     color: #FFFFFF;
     background-color: #5b127d;
-    border-radius: 15px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    z-index: 99;
+    
 }
 
 .pesquisarFiltro {
     width: 500px;
-    height: 35px;
+    height: 40px;
     background-color: #D8BFD8;
-    border-radius: 20px;
+    border-radius: 0 25px 25px 0;
     border: 0;
+    padding-left: 30px;
+    margin-left: -20px;
+
+    
 }
 
 

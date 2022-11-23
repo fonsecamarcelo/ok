@@ -13,8 +13,7 @@
 .selectExibicao {
     margin-right: 10px;
     margin-left: 10px;
-    height: 40px;
-    width: 50px;
     border: none;
     border-radius: 15px;
+    padding: 10px;
 }

@@ -8,10 +8,13 @@ function FiltroDebusca() {
   return (
     <div className='filtrodebusca'>
        <div className='botoespesquisa'>
-        <div className='botoespesquisaconteudo'>
-          <SearchIcon fontSize= 'large' className='iconeFiltro' />
-        <input className='pesquisarFiltro' type='text' placeholder='Pesquisar'/>
-      </div>
+      
+          <div className='iconeFiltro'> 
+            <SearchIcon fontSize= 'large' />
+          </div>
+        <div> 
+          <input className='pesquisarFiltro' type='text' placeholder='Pesquisar'/>
+        </div>
     </div>
     
       <InputOrdenar />

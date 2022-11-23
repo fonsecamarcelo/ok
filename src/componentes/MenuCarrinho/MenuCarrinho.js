@@ -13,7 +13,7 @@ function MenuCarrinho() {
     </div>
 
     <div className='pagamento'>
-      <a className='botaoPagamento' href='/Pagamento.js'>Ir para pagamento</a>
+      <a className='botaoPagamento' href='/Pagamento'>Ir para pagamento</a>
       <ArrowForwardIcon />
     </div>
 

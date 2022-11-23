@@ -6,6 +6,7 @@ import Navbar from './componentes/Navbar/Navbar'
 import Sidebar from './componentes/Sidebar/Sidebar'
 import Data from './Produtos/Data';
 
+
 function AppRouter() {
     const { products } = Data
     return (
