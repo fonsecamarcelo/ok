@@ -1,0 +1,47 @@
+.menuPagamento {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.botaoVoltarPagamento {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    transition: all ease 1s;
+}
+
+.botaoVoltarPagamento:hover {
+    color: #808080;
+    opacity: 0.7;
+}
+
+.enviarPedido {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 1250px;
+    padding: 20px;
+    transition: all ease 1s;
+    background-color: #3cba92;
+    color: #ffffff;
+}
+
+.botaoEnviarPagamento {
+    color: #ffffff;
+}
+
+.botaoEnviarPagamento:hover {
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.sendIcon {
+    padding-left: 7px;
+}
+
+.sendIcon:hover {
+    color: #ffffff;
+    opacity: 0.7;
+}

@@ -29,9 +29,9 @@ function Paginacao() {
       })}
    
       
-      <div>
+      <div className='paginacao'>
         {Array.from(Array(pages),(item, index) => {
-          return <button value={index} onClick={(e) => setCurrentPage(Number (e.target.value))}>{index +1}</button>
+          return <button className='botoesPaginacao' value={index} onClick={(e) => setCurrentPage(Number (e.target.value))}>{index +1}</button>
         })}
       </div>
     </div>

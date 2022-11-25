@@ -1,13 +1,16 @@
-import './estilo.css'
-import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
+import CardsPagamento from '../../componentes/CardsPagamento/CardsPagamento';
+import EnderecoPagamento from '../../componentes/EnderecoPagamento/EnderecoPagamento';
+import InformacoesPagamento from '../../componentes/InformacoesPagamento/InformacoesPagamento';
+import MenuPagamento from '../../componentes/MenuPagamento/MenuPagamento';
 
 function Pagamento() {
     return (
-      <div className='botaoVoltar'>
-        <KeyboardBackspaceIcon href="/" />
-        <a class="nav-link" href="/Carrinho">Voltar</a>
+      <div>
+        <MenuPagamento />
+        <CardsPagamento />
+        <EnderecoPagamento />
+        <InformacoesPagamento />
       </div>
-      
    
     );
   }

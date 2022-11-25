@@ -1,0 +1,15 @@
+.paginacao {
+   padding: 40px;
+   display: flow;
+}
+
+.botoesPaginacao {
+    justify-content:space-around;
+    background-color: #ebebff;    
+    border: 0;
+}
+
+.botoesPaginacao #active {
+    background-color: #3cba92;
+}
+
