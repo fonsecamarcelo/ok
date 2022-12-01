@@ -1,6 +1,6 @@
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Home from './Paginas/Home/Home'
-import Carrinho from './Paginas/Carrinho/Carrinho'
+import Compras from './Paginas/Compras/Compras'
 import Pagamento from './Paginas/Pagamento/Pagamento'
 import Navbar from './componentes/Navbar/Navbar'
 import Sidebar from './componentes/Sidebar/Sidebar'
@@ -19,7 +19,7 @@ function AppRouter() {
                 <div>
                     <Routes>
                         <Route exact path="/" element={<Home/>}/>
-                        <Route exact path="/carrinho" element={<Carrinho/>}/>
+                        <Route exact path="/carrinho" element={<Compras />}/>
                         <Route exact path="/pagamento" element={<Pagamento/>}/>
                     </Routes>
                 </div>

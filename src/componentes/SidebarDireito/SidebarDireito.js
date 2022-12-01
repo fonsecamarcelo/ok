@@ -12,13 +12,13 @@ function SidebarDireito() {
                 <label className="form-check-label">EM PROMOÇÃO</label><br></br>
 
                 <input type="checkbox" className="form-check-input"/>
-                <label className="form-check-label">EM OFERTA</label>
+                <label className="form-check-label">EM OFERTA</label><br></br>
             </div>
             
             <div className='estoque'> 
             <p className='estoquep'>ESTOQUE</p>
                 <input type="checkbox" className="form-check-input"/>
-                <label className="form-check-label">ESTOQUE DISPONIVEL</label>
+                <label className="form-check-label">ESTOQUE DISPONIVEL</label><br></br>
             </div>
 
             <div className='categorias'> 
@@ -36,12 +36,7 @@ function SidebarDireito() {
                 <label className="form-check-label">HIGIENE E BELEZA</label><br></br>
 
 
-            </div>
-
-
-            
-                
-            
+            </div>            
         </ul> 
     </div>
   )
