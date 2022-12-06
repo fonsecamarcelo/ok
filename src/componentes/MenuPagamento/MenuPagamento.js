@@ -12,7 +12,7 @@ function MenuPagamento() {
           </div>
 
         <div className='enviarPedido'>
-          <a className='botaoEnviarPagamento'>Enviar Pedido</a>
+          <a className='botaoEnviarPagamento' href="/">Enviar Pedido</a>
           <SendIcon className='sendIcon'/>
         </div>
         </div>

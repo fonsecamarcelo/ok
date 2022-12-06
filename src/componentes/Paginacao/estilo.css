@@ -1,6 +1,6 @@
 .paginacao {
    padding: 40px;
-   display: flow;
+   
 }
 
 .botoesPaginacao {
@@ -9,7 +9,12 @@
     border: 0;
 }
 
-.botoesPaginacao #active {
+.botoesPaginacao:hover {
     background-color: #3cba92;
+    border-radius: 50%;
 }
 
+.botoesPaginacao #active {
+    background-color: #3cba92;
+    border-radius: 50%;
+}

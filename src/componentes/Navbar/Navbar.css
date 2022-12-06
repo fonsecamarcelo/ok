@@ -1,3 +1,9 @@
 #navbarNav{
-    margin-left: 1400px;
+    align-items: center;
+    display: flex;
+    margin-left: 1550px;
+}
+
+.nav-link {
+    color: green;
 }

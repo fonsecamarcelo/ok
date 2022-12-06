@@ -9,3 +9,8 @@ body {
     padding: 0;
 }
 
+@media (max-width: 600px) {
+    .App, .body {
+        width: 100%;
+    }
+  }

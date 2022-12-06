@@ -1,0 +1,36 @@
+.cardsValor {
+    width: 350px;
+    margin-left: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.valores {
+    font-size: 20px;
+}
+
+.totalValores {
+    display: flex;
+    align-items: center;
+    color:  #808080;
+    font-size: 13px;
+}
+
+.impostosValor {
+    margin-bottom: 40px;
+    margin-left: 105px;
+}
+
+.cifraoUm {
+    margin-left: 20px;
+    
+}
+
+.cifraoDois {
+    margin-left: 210px;
+}
+
+.valorTotal {
+    margin-left: 130px;
+}

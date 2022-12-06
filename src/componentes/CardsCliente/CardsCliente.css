@@ -1,0 +1,56 @@
+.cliente {
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 650px;
+}
+
+.topCliente {
+    display: flex;
+    align-items: center;
+}
+
+.tituloCliente {
+    font-size: 20px;
+}
+
+.detalhesCliente {
+    margin-top: 10px;
+    margin-left: 700px;
+    color: #3cba92;
+}
+
+
+
+.id {
+    margin-left: 5px;
+    color: #808080;
+}
+
+
+.numeroId {
+    border-radius: 25px;
+    padding: 5px;
+    width: 60px;
+    height: 24px;
+    background-color: #301b2c;
+    color: #ffffff;
+}
+
+.botCliente {
+    display: flex;
+    align-items: center;
+}
+
+.RazãoSocial {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.cnpj {
+    margin-top: 20px;
+    margin-left: 400px;
+}
+

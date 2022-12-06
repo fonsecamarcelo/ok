@@ -8,10 +8,7 @@ function Home(props) {
       <>
         <SidebarDireito/>
         <FiltroDebusca />
-        <Paginacao />
-      
-  
-        
+        <Paginacao /> 
       </>
 
    

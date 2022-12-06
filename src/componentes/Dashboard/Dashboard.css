@@ -4,8 +4,23 @@
     justify-content: space-evenly;
     margin-right: 1100px;
     margin-top: 20px;
+    color: #000;
+    
+}
+
+a:hover{
+    color: #77dd77;
 }
 
 .resumo {
     color: #3cba92;
 }
+
+.produtosDashboard {
+    color: #000000;
+}
+
+.inforAdicionais {
+    color: #000;
+}
+

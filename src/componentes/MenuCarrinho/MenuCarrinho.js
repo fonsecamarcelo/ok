@@ -18,7 +18,7 @@ function MenuCarrinho() {
     </div>
 
     <div className='limpar'>
-      <a>Limpar Carrinho</a>
+      <a className='limparCarrinho' href='/'>Limpar Carrinho</a>
       <DeleteOutlineIcon />
     </div>
   </div>

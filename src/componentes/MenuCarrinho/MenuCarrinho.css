@@ -56,3 +56,12 @@ a:link {
     padding-left: 40px;
     color: #FF0000;
 }
+
+.limparCarrinho {
+    color: #FF0000;
+}
+
+.limparCarrinho:hover{
+    color: #808080;
+    opacity: 0.7;
+}

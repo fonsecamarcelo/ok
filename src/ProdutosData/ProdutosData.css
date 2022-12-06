@@ -15,23 +15,22 @@ img.small {
 
 .cardsrow {
     height: 50px;
-    margin-left: 10px;
+    margin-left: 250px;
     margin-right: 0px;
     margin-bottom: 10px;
     margin-top: 50px;
     font-size: 15px;
     align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .teste{
     display: flex;
   }
 
-  .cardsrow {
-    display: flex;
-   align-items: center;
-   justify-content: space-around;
-  }
+  
 
   .idENome{
     display: flex;
@@ -61,5 +60,19 @@ img.small {
   .iconeInfo {
     margin-bottom: 20px;
    
-   
   }
+
+  .buttonProdutosDataMais {
+    border-radius: 50%;
+    border-color: #3cba92;
+    color: #3cba92;
+    background-color: #ffffff;
+  }
+
+  .buttonProdutosDataMenos {
+    border-radius: 50%;
+    border-color: #f62854;
+    color: #f62854;
+    background-color: #ffffff;
+  }
+

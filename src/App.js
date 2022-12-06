@@ -1,3 +1,4 @@
+import CarrinhoDeComprasProvider from './componentes/CarrinhoDeCompras/CarrinhoDeCompras'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AppRouter from './Router';
@@ -5,11 +6,11 @@ import AppRouter from './Router';
 
 
 function App() {
-
-  
   return (
     <div className="App">
-      <AppRouter />
+      <CarrinhoDeComprasProvider>
+        <AppRouter />
+      </CarrinhoDeComprasProvider>
     
     </div>
   );

@@ -4,9 +4,9 @@ import './Dashboard.css'
 function Dashboard() {
   return (
     <div className='dashboard'>
-    <p className='resumo'>Resumo</p>
-    <p>Produtos</p>
-    <p>Informações Adicionais</p>
+    <a className='resumo' href='/carrinho'>Resumo</a>
+    <a className='inforAdicionais' href=''>Produtos</a>
+    <a className='inforAdicionais' href=''>Informações Adicionais</a>
     </div>
   )
 }

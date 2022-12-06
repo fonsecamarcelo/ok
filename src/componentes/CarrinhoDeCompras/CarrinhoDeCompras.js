@@ -1,44 +1,50 @@
-import React from 'react'
-import { useReducer, useState } from 'react'
+import { createContext, useState, useEffect } from "react";
+import Data from "../../Data/Data";
 
+export const createContextCart = createContext();
 
-const reducer = (state, action) => {
-  switch(action.type) {
-    case 'increment':
-      return {
-        quantity: state.quantity + 1,
-      }
-      case 'decrement':
-        return {
-          quantity: state.quantity - 1,
-        }
-      default:
-        return state;
+export default function CartProvider({ children }) {
+  const [ productsCart, setProductsCart ] = useState([])
+  
+  function addProducToCart(product){
+
+    const productsCartCopy = productsCart;
+    const produtoIndex = productsCartCopy.findIndex(produto => produto.id === product.id)
+
+    if( produtoIndex >= 0  ) {
+      const novoQtd = productsCartCopy[produtoIndex].qtd + 1;
+
+      productsCartCopy[produtoIndex] = {...productsCartCopy[produtoIndex], qtd: novoQtd, valorTotal: productsCartCopy[produtoIndex].valorUnitario * novoQtd }
+      console.log(productsCartCopy)
+      setProductsCart(productsCartCopy)
+    } else {
+      const productsCartsModificado = [...productsCartCopy, {id: product.id, name: product.name, qtd: 1, valorUnitario: product.finalPrice, valorTotal: product.finalPrice}]
+      setProductsCart(productsCartsModificado)
+    }
   }
-}
 
-const CarrinhoDeCompras = () => {
-  const [finalPrice,setFinalPrice]=useState([])
-
-  const changePrice = () => {
-    setFinalPrice(finalPrice + finalPrice)
-  }
-
-
-
-
-  const [state, dispatch] = useReducer(reducer, { quantity: 0 })
-  return (
-    <div>
-
-      <p>{state.quantity}</p>
+  function removeProducToCart(product) {
+    const productsCartCopy = [...productsCart];
+    const produtoIndex = productsCartCopy.findIndex(produto => produto.id === product.id)
+    if( produtoIndex >= 0  )
       
-      <button onClick={() => dispatch({ type: "increment" })}>+</button>
-      <button onClick={() => dispatch({ type: "decrement" })}>-</button>
+     {
+        productsCartCopy[produtoIndex] = {...productsCartCopy[produtoIndex], qtd: productsCartCopy[produtoIndex].qtd - 1 }
+        setProductsCart(productsCartCopy)
+    } else {
+      const productsCartsModificado = [...productsCartCopy, {id: product.id, name: product.name, qtd: 1, valorUnitario: product.finalPrice}]
+      setProductsCart(productsCartsModificado)
+    }
+    
 
+  }
+  
 
-    </div>
+  return (
+    <createContextCart.Provider
+      value={{ productsCart, addProducToCart, removeProducToCart}}
+      >  
+        {children}
+      </createContextCart.Provider>
   )
 }
-
-export default CarrinhoDeCompras

@@ -1,8 +1,8 @@
 import React from 'react'
 import './estilo.css'
 import { useEffect, useState } from 'react'
-import Data from '../../Produtos/Data'
-import Product from '../../Products/ProdutosData'
+import Data from "../../Data/Data";
+import Product from '../../ProdutosData/ProdutosData';
 
 function Paginacao() {
   
@@ -27,7 +27,7 @@ function Paginacao() {
       {currentItens.map(item => {
         return (<Product key={item.id} item={item}/>)
       })}
-   
+    
       
       <div className='paginacao'>
         {Array.from(Array(pages),(item, index) => {

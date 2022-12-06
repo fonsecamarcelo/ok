@@ -4,7 +4,7 @@ import Compras from './Paginas/Compras/Compras'
 import Pagamento from './Paginas/Pagamento/Pagamento'
 import Navbar from './componentes/Navbar/Navbar'
 import Sidebar from './componentes/Sidebar/Sidebar'
-import Data from './Produtos/Data';
+import Data from './Data/Data'
 
 
 function AppRouter() {
